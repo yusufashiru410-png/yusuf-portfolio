@@ -70,3 +70,12 @@ if(menuBtn){
         }
     });
 }
+const contactForm = document.querySelector(".contact form");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function () {
+        setTimeout(() => {
+            contactForm.reset();
+        }, 1000);
+    });
+}
