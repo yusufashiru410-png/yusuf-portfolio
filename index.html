@@ -309,23 +309,25 @@ My goal is to become a professional Full-Stack Web Developer.
 
 <section class="contact" id="contact">
 
-<h2 class="section-title">Contact Me</h2>
+    <h2 class="section-title">Contact Me</h2>
 
-<form action="https://formsubmit.co/yusufashiru410@gmail.com" method="POST">
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-<input type="text" name="name" placeholder="Your Name" required>
+        <input type="hidden" name="access_key" value="944b22f7-1d61-4fdf-ab81-09d61db8c76a">
 
-<input type="email" name="email" placeholder="Your Email" required>
+        <input type="hidden" name="subject" value="New Portfolio Contact Message">
 
-<textarea name="message" placeholder="Your Message" required></textarea>
-    
-<input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="redirect" value="https://ift203-portfolio-v2.vercel.app">
 
-<input type="hidden" name="_next" value="https://ift203-portfolio-v2.vercel.app">
+        <input type="text" name="name" placeholder="Your Name" required>
 
-<button type="submit" class="btn">Send Message</button>
+        <input type="email" name="email" placeholder="Your Email" required>
 
-</form>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+    </form>
 
 </section>
 </main>
